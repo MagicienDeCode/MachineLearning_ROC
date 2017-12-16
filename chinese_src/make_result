@@ -1,0 +1,23 @@
+#! /bin/bash
+
+rm result.txt
+
+echo "========SVC========"
+python3 SVC.py >> result.txt
+
+echo "========DecisionTree========"
+python3 DecisionTree.py >> result.txt
+
+echo "========LogisticRegression========"
+python3 LogisticRegression.py >> result.txt
+
+echo "========Knearst========"
+python3 Knearst.py >> result.txt
+
+echo "========RandomForest========"
+python3 RandomForest.py >> result.txt
+
+echo "========MonAlgo========"
+python3 Mon_algo.py >> result.txt
+
+echo "please run less result.txt"

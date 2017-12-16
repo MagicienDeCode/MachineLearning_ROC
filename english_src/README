@@ -1,0 +1,13 @@
+# Download Full dataset : https://s3.amazonaws.com/nist-srd/SD19/by_class.zip (~1GB)
+
+Après avoir téléchargé et dezippé l'archive a la racine du projet.
+
+Lancer d'abord : python3 init_dataset.py
+
+Puis lancer :
+
+  python3 svm.py linear
+
+  python3 svm.py poly
+
+  python3 mlpclassifier.py
